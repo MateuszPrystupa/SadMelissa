@@ -37,6 +37,9 @@ private:
 	UPROPERTY(EditAnywhere, Category="Rotation")
 	FRotator RotationVelocity;
 
+	UPROPERTY(EditAnywhere, Category="Rotation")
+	FRotator RotationVelocity2;
+
 	void MovePlatform(float DeltaTime);
 	void RotatePlatform(float DeltaTime);
 	bool ShouldPlatformReturn() const;
